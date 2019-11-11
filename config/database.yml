@@ -23,3 +23,8 @@ test:
 production:
   <<: *default
   database: db/production.sqlite3
+  host: 127.0.0.1
+  port: 5432
+  datbase: aularuby
+  user: rootruby
+  password: 123
